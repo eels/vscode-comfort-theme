@@ -1,4 +1,4 @@
-import ThemeColors from '../src/modules/colors.js';
+import ThemeColors from '../src/components/colors.js';
 import fetch from 'node-fetch';
 
 lint();

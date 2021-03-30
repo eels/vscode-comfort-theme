@@ -56,7 +56,12 @@
     "themes": [
       {
         "label": "Comfort",
-        "path": "themes/comfort.json",
+        "path": "themes/comfort.base.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Comfort Italics",
+        "path": "themes/comfort.italics.json",
         "uiTheme": "vs-dark"
       }
     ]

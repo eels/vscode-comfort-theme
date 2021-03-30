@@ -1,5 +1,5 @@
-import alpha from '../utils/alpha.js';
 import colors from '../colors.js';
+import translucify from '../utilities/translucify.js';
 
 export default {
   "colors": {
@@ -23,7 +23,7 @@ export default {
     "activityBar.border": colors.backgroundDarker,
     "activityBar.dropBorder": colors.backgroundDarker,
     "activityBar.foreground": colors.white,
-    "activityBar.inactiveForeground": alpha(colors.foreground, 0.5),
+    "activityBar.inactiveForeground": translucify(colors.foreground, 0.5),
     "activityBarBadge.background": colors.selection,
     "activityBarBadge.foreground": colors.white,
 
@@ -37,14 +37,14 @@ export default {
     "breadcrumb.activeSelectionForeground": colors.foreground,
     "breadcrumb.background": colors.background,
     "breadcrumb.focusForeground": colors.foreground,
-    "breadcrumb.foreground": alpha(colors.comment, 0.6),
+    "breadcrumb.foreground": translucify(colors.comment, 0.6),
     "breadcrumbPicker.background": colors.background,
 
     // Buttons
     // ------------------------------
     "button.background": colors.selection,
     "button.foreground": colors.foreground,
-    "button.hoverBackground": alpha(colors.selection, 0.5),
+    "button.hoverBackground": translucify(colors.selection, 0.5),
 
     // Debug Exception
     // ------------------------------
@@ -56,9 +56,9 @@ export default {
     // ------------------------------
     "diffEditor.border": null,
     "diffEditor.diagonalFill": null,
-    "diffEditor.insertedTextBackground": alpha(colors.green, 0.3),
+    "diffEditor.insertedTextBackground": translucify(colors.green, 0.3),
     "diffEditor.insertedTextBorder": null,
-    "diffEditor.removedTextBackground": alpha(colors.red, 0.3),
+    "diffEditor.removedTextBackground": translucify(colors.red, 0.3),
     "diffEditor.removedTextBorder": null,
 
     // Dropdown
@@ -98,7 +98,7 @@ export default {
     // Editor Bracket Match
     // ------------------------------
     "editorBracketMatch.background": colors.selectionAlt,
-    "editorBracketMatch.border": alpha(colors.background, 0),
+    "editorBracketMatch.border": translucify(colors.background, 0),
 
     // Editor Cursor
     // ------------------------------
@@ -117,7 +117,7 @@ export default {
     // Editor Group
     // ------------------------------
     "editorGroup.border": null,
-    "editorGroup.dropBackground": alpha(colors.selection, 0.5),
+    "editorGroup.dropBackground": translucify(colors.selection, 0.5),
     "editorGroupHeader.noTabsBackground": null,
     "editorGroupHeader.tabsBackground": colors.backgroundDark,
     "editorGroupHeader.tabsBorder": null,
@@ -144,7 +144,7 @@ export default {
     // Editor Line Numbers
     // ------------------------------
     "editorLineNumber.activeForeground": colors.foreground,
-    "editorLineNumber.foreground": alpha(colors.comment, 0.6),
+    "editorLineNumber.foreground": translucify(colors.comment, 0.6),
 
     // Editor Marker
     // ------------------------------
@@ -171,18 +171,18 @@ export default {
     // ------------------------------
     "extensionButton.prominentBackground": colors.selection,
     "extensionButton.prominentForeground": colors.foreground,
-    "extensionButton.prominentHoverBackground": alpha(colors.selection, 0.5),
+    "extensionButton.prominentHoverBackground": translucify(colors.selection, 0.5),
 
     // Git Decoration
     // ------------------------------
-    "gitDecoration.addedResourceForeground": colors.green,
-    "gitDecoration.conflictingResourceForeground": colors.orange,
-    "gitDecoration.deletedResourceForeground": colors.red,
-    "gitDecoration.ignoredResourceForeground": alpha(colors.comment, 0.75),
-    "gitDecoration.modifiedResourceForeground": colors.yellow,
-    "gitDecoration.stageDeletedResourceForeground": colors.red,
-    "gitDecoration.stageModifiedResourceForeground": colors.yellow,
-    "gitDecoration.untrackedResourceForeground": colors.green,
+    "gitDecoration.addedResourceForeground": translucify(colors.green, 0.9),
+    "gitDecoration.conflictingResourceForeground": translucify(colors.orange, 0.9),
+    "gitDecoration.deletedResourceForeground": translucify(colors.red, 0.9),
+    "gitDecoration.ignoredResourceForeground": translucify(colors.comment, 0.85),
+    "gitDecoration.modifiedResourceForeground": translucify(colors.yellow, 0.9),
+    "gitDecoration.stageDeletedResourceForeground": translucify(colors.red, 0.9),
+    "gitDecoration.stageModifiedResourceForeground": translucify(colors.yellow, 0.9),
+    "gitDecoration.untrackedResourceForeground": translucify(colors.green, 0.9),
 
     // Image Preview
     // ------------------------------
@@ -193,7 +193,7 @@ export default {
     "input.background": colors.backgroundLight,
     "input.border": null,
     "input.foreground": colors.foreground,
-    "input.placeholderForeground": alpha(colors.foreground, 0.5),
+    "input.placeholderForeground": translucify(colors.foreground, 0.5),
     "inputOption.activeBorder": colors.foreground,
     "inputValidation.errorBackground": colors.red,
     "inputValidation.errorBorder": colors.red,
@@ -208,17 +208,17 @@ export default {
     // List
     // ------------------------------
     "list.activeSelectionBackground": colors.selectionAlt,
-    "list.activeSelectionForeground": colors.white,
-    "list.dropBackground": alpha(colors.selectionAlt, 0.5),
-    "list.errorForeground": colors.red,
+    "list.activeSelectionForeground": colors.foreground,
+    "list.dropBackground": translucify(colors.selectionAlt, 0.5),
+    "list.errorForeground": translucify(colors.red, 0.9),
     "list.focusBackground": colors.selectionAlt,
-    "list.focusForeground": colors.white,
+    "list.focusForeground": colors.foreground,
     "list.highlightForeground": colors.selectionAlt,
-    "list.hoverBackground": alpha(colors.selectionAlt, 0.5),
+    "list.hoverBackground": translucify(colors.selectionAlt, 0.5),
     "list.hoverForeground": colors.foreground,
     "list.inactiveSelectionBackground": colors.selectionAlt,
-    "list.inactiveSelectionForeground": colors.white,
-    "list.warningForeground": colors.yellow,
+    "list.inactiveSelectionForeground": colors.foreground,
+    "list.warningForeground": translucify(colors.yellow, 0.9),
 
     // Minimap
     // ------------------------------
@@ -258,7 +258,7 @@ export default {
     "panel.dropBorder": colors.selection,
     "panelTitle.activeBorder": colors.selection,
     "panelTitle.activeForeground": colors.white,
-    "panelTitle.inactiveForeground": alpha(colors.foreground, 0.5),
+    "panelTitle.inactiveForeground": translucify(colors.foreground, 0.5),
 
     // Peek View
     // ------------------------------
@@ -271,7 +271,7 @@ export default {
     "peekViewResult.fileForeground": colors.foreground,
     "peekViewResult.lineForeground": colors.foreground,
     "peekViewResult.matchHighlightBackground": colors.selection,
-    "peekViewResult.selectionBackground": alpha(colors.selectionAlt, 0.5),
+    "peekViewResult.selectionBackground": translucify(colors.selectionAlt, 0.5),
     "peekViewResult.selectionForeground": colors.foreground,
     "peekViewTitle.background": colors.backgroundDark,
     "peekViewTitleDescription.foreground": colors.foreground,
@@ -287,9 +287,9 @@ export default {
 
     // Scrollbar
     // ------------------------------
-    "scrollbar.shadow": alpha(colors.background, 0),
+    "scrollbar.shadow": translucify(colors.background, 0),
     "scrollbarSlider.activeBackground": colors.selection,
-    "scrollbarSlider.background": alpha(colors.selectionAlt, 0.75),
+    "scrollbarSlider.background": translucify(colors.selectionAlt, 0.75),
     "scrollbarSlider.hoverBackground": colors.selection,
 
     // Sidebar
@@ -297,7 +297,7 @@ export default {
     "sideBar.background": colors.backgroundDark,
     "sideBar.border": null,
     "sideBar.dropBackground": colors.backgroundDark,
-    "sideBar.foreground": colors.foreground,
+    "sideBar.foreground": translucify(colors.foreground, 0.9),
     "sideBarSectionHeader.background": colors.backgroundDarker,
     "sideBarSectionHeader.foreground": colors.foreground,
     "sideBarTitle.foreground": colors.foreground,
@@ -309,10 +309,10 @@ export default {
     "statusBar.debuggingBackground": colors.backgroundDarker,
     "statusBar.debuggingBorder": null,
     "statusBar.debuggingForeground": null,
-    "statusBar.foreground": alpha(colors.foreground, 0.5),
+    "statusBar.foreground": translucify(colors.foreground, 0.5),
     "statusBar.noFolderBackground": colors.backgroundDarker,
     "statusBar.noFolderBorder": null,
-    "statusBar.noFolderForeground": alpha(colors.foreground, 0.5),
+    "statusBar.noFolderForeground": translucify(colors.foreground, 0.5),
     "statusBarItem.activeBackground": colors.backgroundDarker,
     "statusBarItem.hoverBackground": colors.backgroundDarker,
     "statusBarItem.prominentBackground": colors.backgroundDarker,
@@ -325,7 +325,7 @@ export default {
     "tab.activeForeground": colors.foreground,
     "tab.border": colors.background,
     "tab.inactiveBackground": colors.backgroundLight,
-    "tab.inactiveForeground": alpha(colors.foreground, 0.5),
+    "tab.inactiveForeground": translucify(colors.foreground, 0.5),
     "tab.unfocusedActiveBorder": null,
     "tab.unfocusedActiveForeground": null,
     "tab.unfocusedInactiveForeground": null,

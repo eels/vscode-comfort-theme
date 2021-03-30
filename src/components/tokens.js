@@ -1,18 +1,6 @@
 import colors from '../colors.js';
 
 export default {
-  "semanticTokenColors": {
-    "method.defaultLibrary:javascript": colors.blue,
-    "method.defaultLibrary:typescript": colors.blue,
-    "parameter:javascript": colors.white,
-    "parameter:typescript": colors.white,
-    "parameter.declaration:javascript": colors.cyan,
-    "parameter.declaration:typescript": colors.cyan,
-    "variable.defaultLibrary:javascript": colors.yellow,
-    "variable.defaultLibrary:typescript": colors.yellow,
-    "variable:javascript": colors.white,
-    "variable:typescript": colors.white
-  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -597,22 +585,6 @@ export default {
       }
     },
     {
-      "name": "Italics",
-      "scope": "italic",
-      "settings": {
-        "foreground": colors.magenta,
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Bold",
-      "scope": "bold",
-      "settings": {
-        "foreground": colors.yellow,
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "Quote",
       "scope": "quote",
       "settings": {
@@ -859,8 +831,7 @@ export default {
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
-        "foreground": colors.blue,
-        "fontStyle": "normal"
+        "foreground": colors.blue
       }
     },
     {
@@ -979,8 +950,7 @@ export default {
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": colors.green,
-        "fontStyle": "normal"
+        "foreground": colors.green
       }
     },
     {
@@ -994,16 +964,14 @@ export default {
       "name": "JSON Property values (string)",
       "scope": "meta.structure.dictionary.value.json string.quoted.double",
       "settings": {
-        "foreground": colors.cyan,
-        "fontStyle": "normal"
+        "foreground": colors.cyan
       }
     },
     {
       "name": "Strings in JSON values",
       "scope": "string.quoted.double.json punctuation.definition.string.json",
       "settings": {
-        "foreground": colors.cyan,
-        "fontStyle": "normal"
+        "foreground": colors.cyan
       }
     },
     {
@@ -1049,19 +1017,10 @@ export default {
       }
     },
     {
-      "name": "Markup Italics",
-      "scope": "markup.italic",
-      "settings": {
-        "foreground": colors.magenta,
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Markup Bold",
       "scope": "markup.bold",
       "settings": {
-        "foreground": colors.yellow,
-        "fontStyle": "bold"
+        "foreground": colors.yellow
       }
     },
     {
@@ -1095,13 +1054,6 @@ export default {
       ],
       "settings": {
         "foreground": colors.green
-      }
-    },
-    {
-      "name": "Markup Admonitions",
-      "scope": "markup.admonition",
-      "settings": {
-        "fontStyle": "bold"
       }
     },
     {
@@ -1487,7 +1439,7 @@ export default {
         "punctuation"
       ],
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     }
   ]

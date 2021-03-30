@@ -7,7 +7,7 @@ export const backgroundDarker = '#1C1F2B';
 export const backgroundLight = '#32374D';
 export const backgroundLighter = '#3C425D';
 export const comment = '#697098';
-export const foreground = '#DBE3EB';
+export const foreground = '#D7DEE6';
 export const selection = '#3F4566';
 export const selectionAlt = '#353A55';
 

@@ -1,4 +1,4 @@
-import color from 'color';
+import lighten from './utilities/lighten.js';
 import * as palette from './palette.js';
 
 // BASE COLORS
@@ -17,20 +17,20 @@ const COLORS = {
   yellow: palette.yellow
 };
 
-// BRIGHT VARIANTS
+// BRIGHT VARIANT COLORS
 // ------------------------------
 
 const BRIGHTCOLORS = {
-  brightBlack: color(COLORS.black).lighten(0.07).hex(),
-  brightBlue: color(COLORS.blue).lighten(0.07).hex(),
-  brightCyan: color(COLORS.cyan).lighten(0.07).hex(),
-  brightGreen: color(COLORS.green).lighten(0.07).hex(),
-  brightMagenta: color(COLORS.magenta).lighten(0.07).hex(),
-  brightOrange: color(COLORS.orange).lighten(0.07).hex(),
-  brightPink: color(COLORS.pink).lighten(0.07).hex(),
-  brightRed: color(COLORS.red).lighten(0.07).hex(),
-  brightWhite: color(COLORS.white).lighten(0.07).hex(),
-  brightYellow: color(COLORS.yellow).lighten(0.07).hex()
+  brightBlack: lighten(COLORS.black),
+  brightBlue: lighten(COLORS.blue),
+  brightCyan: lighten(COLORS.cyan),
+  brightGreen: lighten(COLORS.green),
+  brightMagenta: lighten(COLORS.magenta),
+  brightOrange: lighten(COLORS.orange),
+  brightPink: lighten(COLORS.pink),
+  brightRed: lighten(COLORS.red),
+  brightWhite: lighten(COLORS.white),
+  brightYellow: lighten(COLORS.yellow)
 };
 
 // BASE COLORS
