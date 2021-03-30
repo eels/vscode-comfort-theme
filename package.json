@@ -5,9 +5,9 @@
   "type": "module",
   "license": "MIT",
   "author": "Liam Howell <liam@liam.codes>",
-  "publisher": "",
+  "publisher": "eels",
   "displayName": "Comfort Theme",
-  "icon": "resources/icon.png",
+  "icon": "resources/icon@3x.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/eels/vscode-comfort-theme"
@@ -16,10 +16,15 @@
     "build": "node scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build",
     "i": "yarn install --ignore-engines",
-    "lint": "yarn run lint:js:fix",
+    "lint": "yarn lint:js:fix",
     "lint:js": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json",
     "lint:js:fix": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json --fix",
-    "lint:theme": "node scripts/lint.js"
+    "lint:theme": "node scripts/lint.js",
+    "release": "np --no-publish --preview",
+    "test": "echo \"No test specified\"",
+    "vscode:package": "node_modules/.bin/vsce package",
+    "vscode:prepublish": "yarn lint",
+    "vscode:publish": "yarn build && yarn release && node_modules/.bin/vsce publish"
   },
   "files": [
     "themes/comfort.json"
@@ -67,10 +72,7 @@
     ]
   },
   "galleryBanner": {
-    "color": "#292D3F",
+    "color": "#1B1E2C",
     "theme": "dark"
-  },
-  "__metadata": {
-    "publisherDisplayName": "Liam Howell"
   }
 }
