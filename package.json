@@ -20,14 +20,15 @@
     "lint:js": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json",
     "lint:js:fix": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json --fix",
     "lint:theme": "node scripts/lint.js",
-    "release": "np --no-publish --preview",
+    "release": "np --no-publish",
     "test": "echo \"No test specified\"",
     "vscode:package": "node_modules/.bin/vsce package",
-    "vscode:prepublish": "yarn lint",
-    "vscode:publish": "yarn build && yarn release && node_modules/.bin/vsce publish"
+    "vscode:prepublish": "yarn lint && yarn build",
+    "vscode:publish": "yarn release && node_modules/.bin/vsce publish"
   },
   "files": [
-    "themes/comfort.json"
+    "themes/comfort.base.json",
+    "themes/comfort.italics.json"
   ],
   "keywords": [
     "color-theme",

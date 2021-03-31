@@ -2,15 +2,23 @@ import colors from '../colors.js';
 
 export default {
   "semanticTokenColors": {
-    "method.defaultLibrary:javascript": colors.blue,
-    "method.defaultLibrary:typescript": colors.blue,
-    "parameter:javascript": colors.white,
-    "parameter:typescript": colors.white,
-    "parameter.declaration:javascript": colors.cyan,
-    "parameter.declaration:typescript": colors.cyan,
-    "variable.defaultLibrary:javascript": colors.yellow,
-    "variable.defaultLibrary:typescript": colors.yellow,
-    "variable:javascript": colors.white,
-    "variable:typescript": colors.white
+    "enumMember": {
+      "foreground": colors.cyan
+    },
+    "function.defaultLibrary": {
+      "foreground": colors.magenta
+    },
+    "variable.constant": {
+      "foreground": colors.orange
+    },
+    "variable.declaration": {
+      "foreground": colors.foregroundCode
+    },
+    "variable.defaultLibrary": {
+      "foreground": colors.foregroundCode
+    },
+    "variable.readonly": {
+      "foreground": colors.foregroundCode
+    }
   }
 }

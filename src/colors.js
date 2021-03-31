@@ -5,7 +5,7 @@ import * as palette from './palette.js';
 // ------------------------------
 
 const COLORS = {
-  black: palette.background,
+  black: palette.comment,
   blue: palette.blue,
   cyan: palette.cyan,
   green: palette.green,
@@ -45,8 +45,21 @@ const BASECOLORS = {
   backgroundLighter: palette.backgroundLighter,
   comment: palette.comment,
   foreground: palette.foreground,
+  foregroundAlt: palette.foregroundAlt,
+  foregroundCode: palette.foregroundCode,
   selection: palette.selection,
-  selectionAlt: palette.selectionAlt
+  selectionDark: palette.selectionDark,
+  selectionLight: palette.selectionLight
 };
 
-export default Object.assign({}, BASECOLORS, BRIGHTCOLORS, COLORS);
+// SPECIAL COLORS
+// ------------------------------
+
+const SPECIALCOLORS = {
+  mergeCurrent: palette.mergeCurrent,
+  mergeCurrentDark: palette.mergeCurrentDark,
+  mergeIncoming: palette.mergeIncoming,
+  mergeIncomingDark: palette.mergeIncomingDark
+};
+
+export default Object.assign({}, BASECOLORS, BRIGHTCOLORS, COLORS, SPECIALCOLORS);
