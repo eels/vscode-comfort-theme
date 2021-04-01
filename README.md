@@ -1,9 +1,9 @@
 # Comfort for [Visual Studio Code](http://code.visualstudio.com)
 
-A comforting dark theme, for me and for you (but mostly me).
+A comforting dark theme, for me and for you (but mostly for me).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/9451626/113197383-8327c400-925c-11eb-901a-ed1435501882.png">
+  <img src="https://user-images.githubusercontent.com/9451626/113354122-93ac6d00-9336-11eb-89ce-c13d5be32d41.png">
 </p>
 
 ## Installation
