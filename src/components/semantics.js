@@ -8,6 +8,15 @@ export default {
     "function.defaultLibrary": {
       "foreground": colors.magenta
     },
+    "namespace": {
+      "foreground": colors.foregroundCode
+    },
+    "property.declaration": {
+      "foreground": colors.blue
+    },
+    "property.declaration.static": {
+      "foreground": colors.foregroundCode
+    },
     "variable.constant": {
       "foreground": colors.orange
     },

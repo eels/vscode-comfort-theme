@@ -266,7 +266,7 @@ export default {
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": colors.yellow
+        "foreground": colors.foregroundCode
       }
     },
     {
@@ -275,7 +275,7 @@ export default {
         "variable.other.property"
       ],
       "settings": {
-        "foreground": colors.blue
+        "foreground": colors.foregroundCode
       }
     },
     {
