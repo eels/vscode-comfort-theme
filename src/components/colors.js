@@ -177,6 +177,26 @@ export default {
     "editorMarkerNavigationError.background": colors.red,
     "editorMarkerNavigationWarning.background": colors.yellow,
 
+    // Editor Overview Ruler
+    // ------------------------------
+    "editorOverviewRuler.addedForeground": colors.green,
+    "editorOverviewRuler.background": colors.background,
+    "editorOverviewRuler.border": colors.selection,
+    "editorOverviewRuler.bracketMatchForeground": colors.foregroundCode,
+    "editorOverviewRuler.commonContentForeground": colors.backgroundLight,
+    "editorOverviewRuler.currentContentForeground": colors.mergeCurrent,
+    "editorOverviewRuler.deletedForeground": colors.red,
+    "editorOverviewRuler.errorForeground": colors.red,
+    "editorOverviewRuler.findMatchForeground": colors.selectionLight,
+    "editorOverviewRuler.incomingContentForeground": colors.mergeIncoming,
+    "editorOverviewRuler.infoForeground": colors.blue,
+    "editorOverviewRuler.modifiedForeground": colors.yellow,
+    "editorOverviewRuler.rangeHighlightForeground": colors.selectionLight,
+    "editorOverviewRuler.selectionHighlightForeground": colors.red,
+    "editorOverviewRuler.warningForeground": colors.yellow,
+    "editorOverviewRuler.wordHighlightForeground": colors.selectionLight,
+    "editorOverviewRuler.wordHighlightStrongForeground": colors.selectionLight,
+
     // Editor Widgets
     // ------------------------------
     "editorWidget.background": colors.background,
