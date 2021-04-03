@@ -1097,7 +1097,7 @@ export default {
         "entity.other.attribute-name.id"
       ],
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": colors.blue
       }
     },
@@ -1107,7 +1107,7 @@ export default {
         "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": colors.orange
       }
     },
