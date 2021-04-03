@@ -45,5 +45,5 @@ function build(variant) {
   const theme = Object.assign({}, ConstructedMeta, ComponentColors, ComponentSemantics, ComponentTokens);
   const jsontheme = JSON.stringify(theme, null, 2);
 
-  fs.writeFileSync(path.join(THEME_DIR, `comfort.${variant.name}.json`), jsontheme);
+  fs.writeFileSync(path.join(THEME_DIR, `comfort.${variant.name}.vscode-color-theme.json`), jsontheme);
 }

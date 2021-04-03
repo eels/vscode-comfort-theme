@@ -27,8 +27,8 @@
     "vscode:publish": "yarn release && node_modules/.bin/vsce publish"
   },
   "files": [
-    "themes/comfort.base.json",
-    "themes/comfort.italics.json"
+    "themes/comfort.base.vscode-color-theme.json",
+    "themes/comfort.italics.vscode-color-theme.json"
   ],
   "keywords": [
     "color-theme",
@@ -62,12 +62,12 @@
     "themes": [
       {
         "label": "Comfort",
-        "path": "themes/comfort.base.json",
+        "path": "themes/comfort.base.vscode-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Comfort Italics",
-        "path": "themes/comfort.italics.json",
+        "path": "themes/comfort.italics.vscode-color-theme.json",
         "uiTheme": "vs-dark"
       }
     ]
