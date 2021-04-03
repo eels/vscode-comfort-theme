@@ -66,8 +66,13 @@ export default {
     "checkbox.border": null,
     "checkbox.foreground": colors.foreground,
 
-    // Debug Exception
+    // Debug
     // ------------------------------
+    "debugIcon.breakpointCurrentStackframeForeground": colors.yellow,
+    "debugIcon.breakpointDisabledForeground": colors.blue,
+    "debugIcon.breakpointForeground": colors.red,
+    "debugIcon.breakpointStackframeForeground": colors.green,
+    "debugIcon.breakpointUnverifiedForeground": colors.blue,
     "debugExceptionWidget.background": colors.background,
     "debugExceptionWidget.border": colors.selection,
     "debugToolBar.background": colors.background,
@@ -159,7 +164,7 @@ export default {
     // Editor LightBulb
     // ------------------------------
     "editorLightBulb.foreground": colors.yellow,
-    "editorLightBulbAutoFix.foreground": colors.yellow,
+    "editorLightBulbAutoFix.foreground": colors.blue,
 
     // Editor Line Numbers
     // ------------------------------
