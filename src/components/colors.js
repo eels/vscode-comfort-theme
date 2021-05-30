@@ -11,7 +11,7 @@ export default {
     "errorForeground": colors.foreground,
     "focusBorder": colors.selectionDark,
     "foreground": colors.foreground,
-    "selection.background": colors.backgroundLight,
+    "selection.background": colors.backgroundDark,
     "widget.shadow": colors.backgroundDark,
 
     // Activity Bar
