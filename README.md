@@ -1,10 +1,19 @@
-# Comfort for [Visual Studio Code](http://code.visualstudio.com)
-
-A comforting dark theme, for me and for you (but mostly for me).
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/9451626/113354122-93ac6d00-9336-11eb-89ce-c13d5be32d41.png">
-</p>
+<div align="center">
+  <h1>
+    <br />
+    <div>:couch_and_lamp:</div>
+    <br />
+    <div>Comfort for <a href="https://code.visualstudio.com/">Visual Studio Code</a></div>
+    <br />
+  </h1>
+  <br />
+  <div>A comforting dark theme, for me and for you (but mostly for me)</div>
+  <br />
+  <pre>code --install-extension eels.vscode-comfort-theme --force</pre>
+  <br />
+  <img src="https://user-images.githubusercontent.com/9451626/113354122-93ac6d00-9336-11eb-89ce-c13d5be32d41.png" />
+  <h1></h1>
+</div>
 
 ## Installation
 
