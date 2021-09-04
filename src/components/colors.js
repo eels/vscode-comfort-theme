@@ -119,7 +119,7 @@ export default {
     'editor.wordHighlightStrongBorder': null,
     'editorCodeLens.foreground': colors.yellow,
     'editorLink.activeForeground': null,
-    'editorRuler.foreground': colors.comment,
+    'editorRuler.foreground': colors.selection,
     'editorWhitespace.foreground': null,
 
     // Editor Bracket Match
