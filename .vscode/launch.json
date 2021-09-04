@@ -10,10 +10,7 @@
       "name": "Launch Theme",
       "type": "extensionHost",
       "request": "launch",
-      "args": [
-        "--extensionDevelopmentPath=${workspaceFolder}",
-        "--disable-extensions"
-      ]
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}", "--disable-extensions"]
     }
   ]
 }
