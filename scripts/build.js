@@ -12,15 +12,13 @@ const themes = [
   {
     meta: ThemeBaseMeta,
     name: 'base',
-    tokenExtras: []
+    tokenExtras: [],
   },
   {
     meta: ThemeItalicsMeta,
     name: 'italics',
-    tokenExtras: [
-      ComponentTokensItalics
-    ]
-  }
+    tokenExtras: [ComponentTokensItalics],
+  },
 ];
 
 const THEME_DIR = path.join(process.cwd(), 'themes');
@@ -38,12 +36,18 @@ themes.map((variant) => build(variant));
 function build(variant) {
   ComponentTokens.tokenColors = [
     ...ComponentTokens.tokenColors,
-    ...variant.tokenExtras.flatMap((tokens) => tokens.tokenColors)
+    ...variant.tokenExtras.flatMap((tokens) => tokens.tokenColors),
   ];
 
   const ConstructedMeta = Object.assign({}, ComponentMeta, variant.meta);
-  const theme = Object.assign({}, ConstructedMeta, ComponentColors, ComponentSemantics, ComponentTokens);
-  const jsontheme = JSON.stringify(theme, null, 2);
+  const filename = `comfort.${variant.name}.vscode-color-theme.json`;
 
-  fs.writeFileSync(path.join(THEME_DIR, `comfort.${variant.name}.vscode-color-theme.json`), jsontheme);
+  const theme = {
+    ...ConstructedMeta,
+    ...ComponentColors,
+    ...ComponentSemantics,
+    ...ComponentTokens,
+  };
+
+  fs.writeFileSync(path.join(THEME_DIR, filename), JSON.stringify(theme, null, 2));
 }

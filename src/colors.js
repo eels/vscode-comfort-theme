@@ -14,7 +14,7 @@ const COLORS = {
   pink: palette.pink,
   red: palette.red,
   white: palette.foreground,
-  yellow: palette.yellow
+  yellow: palette.yellow,
 };
 
 // BRIGHT VARIANT COLORS
@@ -30,7 +30,7 @@ const BRIGHTCOLORS = {
   brightPink: lighten(COLORS.pink),
   brightRed: lighten(COLORS.red),
   brightWhite: lighten(COLORS.white),
-  brightYellow: lighten(COLORS.yellow)
+  brightYellow: lighten(COLORS.yellow),
 };
 
 // BASE COLORS
@@ -49,7 +49,7 @@ const BASECOLORS = {
   foregroundCode: palette.foregroundCode,
   selection: palette.selection,
   selectionDark: palette.selectionDark,
-  selectionLight: palette.selectionLight
+  selectionLight: palette.selectionLight,
 };
 
 // SPECIAL COLORS
@@ -59,7 +59,7 @@ const SPECIALCOLORS = {
   mergeCurrent: palette.mergeCurrent,
   mergeCurrentDark: palette.mergeCurrentDark,
   mergeIncoming: palette.mergeIncoming,
-  mergeIncomingDark: palette.mergeIncomingDark
+  mergeIncomingDark: palette.mergeIncomingDark,
 };
 
 export default Object.assign({}, BASECOLORS, BRIGHTCOLORS, COLORS, SPECIALCOLORS);

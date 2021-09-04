@@ -1,29 +1,12 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "standard",
-    "semistandard"
-  ],
-  "plugins": [
-    "sort-destructure-keys",
-    "sort-keys-fix"
-  ],
+  "extends": ["eslint:recommended", "standard", "semistandard"],
+  "plugins": ["sort-destructure-keys", "sort-keys-fix"],
   "rules": {
-    "array-bracket-spacing": [
-      "error",
-      "never"
-    ],
-    "arrow-parens": [
-      "error",
-      "always"
-    ],
-    "newline-before-return": [
-      "error"
-    ],
-    "newline-after-var": [
-      "error",
-      "always"
-    ],
+    "array-bracket-spacing": ["error", "never"],
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "newline-before-return": ["error"],
+    "newline-after-var": ["error", "always"],
     "no-multiple-empty-lines": [
       "error",
       {
@@ -32,13 +15,8 @@
         "maxBOF": 0
       }
     ],
-    "no-undef": [
-      "error"
-    ],
-    "one-var": [
-      "error",
-      "never"
-    ],
+    "no-undef": ["error"],
+    "one-var": ["error", "never"],
     "padding-line-between-statements": [
       "error",
       {
@@ -53,24 +31,10 @@
         "caseSensitive": true
       }
     ],
-    "sort-keys-fix/sort-keys-fix": [
-      "error"
-    ],
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "quote-props": [
-      "error",
-      "consistent"
-    ],
-    "yoda": [
-      "error",
-      "always"
-    ]
+    "sort-keys-fix/sort-keys-fix": ["error"],
+    "space-before-function-paren": ["error", "never"],
+    "quotes": ["error", "single"],
+    "quote-props": ["error", "consistent"],
+    "yoda": ["error", "always"]
   }
 }

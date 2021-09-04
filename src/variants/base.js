@@ -1,4 +1,4 @@
 export default {
-  "name": "Comfort",
-  "semanticClass": "theme.comfort.base",
-}
+  name: 'Comfort',
+  semanticClass: 'theme.comfort.base',
+};

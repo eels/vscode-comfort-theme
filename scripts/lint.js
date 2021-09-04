@@ -9,7 +9,7 @@ async function scrapeAvailableThemeData() {
   const matches = data.match(new RegExp('<code>.+?</code>', 'g'));
 
   if (!matches) {
-    throw new Error('Couldn\'t find any matches with <code>...</code>');
+    throw new Error('No matches for <code>...</code>');
   }
 
   return [...matches].map((key) => key.replace('<code>', '').replace('</code>', ''));
