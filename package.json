@@ -9,7 +9,7 @@
   "homepage": "https://github.com/eels/vscode-comfort-theme#readme",
   "repository": "https://github.com/eels/vscode-comfort-theme",
   "bugs": "https://github.com/eels/vscode-comfort-theme/issues",
-  "icon": "https://github.com/eels/vscode-comfort-theme/blob/main/resources/Icon%403x.png",
+  "icon": "./resources/icon@3x.png",
   "license": "MIT",
   "scripts": {
     "build": "node ./scripts/build.js",
