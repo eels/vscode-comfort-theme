@@ -1,5 +1,5 @@
-import lighten from './utilities/lighten.js';
 import * as palette from './palette.js';
+import lighten from './utilities/lighten.js';
 
 // BASE COLORS
 // ------------------------------
@@ -11,7 +11,6 @@ const COLORS = {
   green: palette.green,
   magenta: palette.magenta,
   orange: palette.orange,
-  pink: palette.pink,
   red: palette.red,
   white: palette.foreground,
   yellow: palette.yellow,
@@ -27,7 +26,6 @@ const BRIGHTCOLORS = {
   brightGreen: lighten(COLORS.green),
   brightMagenta: lighten(COLORS.magenta),
   brightOrange: lighten(COLORS.orange),
-  brightPink: lighten(COLORS.pink),
   brightRed: lighten(COLORS.red),
   brightWhite: lighten(COLORS.white),
   brightYellow: lighten(COLORS.yellow),

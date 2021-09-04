@@ -6,7 +6,7 @@ lint();
 async function scrapeAvailableThemeData() {
   const THEME_REFERENCE_URL = 'https://code.visualstudio.com/api/references/theme-color';
   const data = await fetch(THEME_REFERENCE_URL).then((response) => response.text());
-  const matches = data.match(new RegExp('<code>.+?</code>', 'g'));
+  const matches = data.match(/<code>.+?<\/code>/g);
 
   if (!matches) {
     throw new Error('No matches for <code>...</code>');
@@ -22,7 +22,7 @@ async function filterAvailableThemeKeys() {
   keys = keys.filter((key) => !/ /.test(key));
   keys = keys.filter((key) => !/#.../.test(key));
   keys = keys.filter((key) => !/&quot;/.test(key));
-  keys = keys.filter((key) => 4 < key.length);
+  keys = keys.filter((key) => key.length > 4);
 
   return keys.sort();
 }
