@@ -12,9 +12,19 @@
   "rules": {
     "comma-dangle": ["error", "always-multiline"],
     "import/first": "error",
-    "import/newline-after-import": ["error", { "count": 1 }],
+    "import/newline-after-import": [
+      "error",
+      {
+        "count": 1
+      }
+    ],
     "prettier/prettier": "error",
-    "sort-destructure-keys/sort-destructure-keys": ["error", { "caseSensitive": true }],
+    "sort-destructure-keys/sort-destructure-keys": [
+      "error",
+      {
+        "caseSensitive": true
+      }
+    ],
     "sort-imports-es6-autofix/sort-imports-es6": [
       "error",
       {
