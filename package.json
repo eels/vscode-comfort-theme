@@ -18,7 +18,7 @@
     "lint:fix": "yarn lint --fix",
     "lint:theme": "node ./scripts/lint.js",
     "prepare": "husky install",
-    "release": "np --no-publish",
+    "release": "np --no-publish --no-release-draft",
     "test": "echo \"No test specified\"",
     "vscode:package": "vsce package",
     "vscode:prepublish": "yarn lint && yarn build",
