@@ -13,6 +13,7 @@
   "license": "MIT",
   "scripts": {
     "build": "node ./scripts/build.js",
+    "clean": "rimraf ./themes",
     "dev": "nodemon --watch src --exec yarn build",
     "format": "prettier './{scripts,src}/**/*.js' --check",
     "format:fix": "yarn format --write",
@@ -23,7 +24,7 @@
     "release": "np --no-publish --no-release-draft",
     "test": "echo \"No test specified\"",
     "vscode:package": "vsce package",
-    "vscode:prepublish": "yarn lint && yarn build",
+    "vscode:prepublish": "yarn lint && yarn clean && yarn build",
     "vscode:publish": "yarn release && vsce publish"
   },
   "files": [
@@ -76,6 +77,7 @@
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
     "vsce": "^1.96.3"
   }
 }
