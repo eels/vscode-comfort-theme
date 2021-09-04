@@ -1,3 +1,5 @@
+/* eslint-disable sort-keys-fix/sort-keys-fix */
+
 import colors from '../colors.js';
 import translucify from '../utilities/translucify.js';
 
@@ -5,12 +7,12 @@ export default {
   colors: {
     // -- Base Colors --
     // ------------------------------
-    contrastActiveBorder: null,
-    contrastBorder: null,
-    descriptionForeground: colors.foreground,
-    errorForeground: colors.foreground,
-    focusBorder: colors.selectionDark,
-    foreground: colors.foreground,
+    'contrastActiveBorder': null,
+    'contrastBorder': null,
+    'descriptionForeground': colors.foreground,
+    'errorForeground': colors.foreground,
+    'focusBorder': colors.selectionDark,
+    'foreground': colors.foreground,
     'selection.background': colors.backgroundDark,
     'widget.shadow': colors.backgroundDark,
 

@@ -2,13 +2,13 @@ import colors from '../colors.js';
 
 export default {
   semanticTokenColors: {
-    enumMember: {
+    'enumMember': {
       foreground: colors.cyan,
     },
     'function.defaultLibrary': {
       foreground: colors.magenta,
     },
-    namespace: {
+    'namespace': {
       foreground: colors.foregroundCode,
     },
     'property.declaration': {

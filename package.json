@@ -17,7 +17,7 @@
     "dev": "nodemon --watch src --exec yarn build",
     "format": "prettier './{scripts,src}/**/*.js' --check",
     "format:fix": "yarn format --write",
-    "lint": "eslint './{scripts,src}/*.js'",
+    "lint": "eslint './{scripts,src}/**/*.js'",
     "lint:fix": "yarn lint --fix",
     "lint:theme": "node ./scripts/lint.js",
     "prepare": "husky install",

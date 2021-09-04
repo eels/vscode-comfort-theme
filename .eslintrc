@@ -41,6 +41,7 @@
         "asyncArrow": "always",
         "named": "never"
       }
-    ]
+    ],
+    "quote-props": ["error", "consistent-as-needed"]
   }
 }
