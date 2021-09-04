@@ -2,7 +2,7 @@
   "name": "vscode-comfort-theme",
   "displayName": "Comfort Theme",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A comforting dark theme, for me and for you (but mostly for me)",
   "author": "Liam Howell <liam@liam.codes>",
   "publisher": "eels",
