@@ -1,31 +1,28 @@
 {
   "name": "vscode-comfort-theme",
+  "displayName": "Comfort Theme",
+  "type": "module",
   "version": "0.2.1",
   "description": "A comforting dark theme, for me and for you (but mostly for me)",
-  "type": "module",
-  "license": "MIT",
   "author": "Liam Howell <liam@liam.codes>",
   "publisher": "eels",
-  "displayName": "Comfort Theme",
-  "icon": "resources/icon@3x.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eels/vscode-comfort-theme"
-  },
+  "homepage": "https://github.com/eels/vscode-comfort-theme#readme",
+  "repository": "https://github.com/eels/vscode-comfort-theme",
+  "bugs": "https://github.com/eels/vscode-comfort-theme/issues",
+  "icon": "https://github.com/eels/vscode-comfort-theme/blob/main/resources/Icon%403x.png",
+  "license": "MIT",
   "scripts": {
-    "build": "node scripts/build.js",
+    "build": "node ./scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build",
-    "i": "yarn install --ignore-engines",
-    "lint": "yarn lint:js:fix",
-    "lint:js": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json",
-    "lint:js:fix": "node_modules/.bin/eslint {scripts,src}/*.js --config .eslintrc.json --fix",
-    "lint:theme": "node scripts/lint.js",
+    "lint": "eslint './{scripts,src}/*.js' --config .eslintrc.json",
+    "lint:fix": "yarn lint --fix",
+    "lint:theme": "node ./scripts/lint.js",
     "prepare": "husky install",
     "release": "np --no-publish",
     "test": "echo \"No test specified\"",
-    "vscode:package": "node_modules/.bin/vsce package",
+    "vscode:package": "vsce package",
     "vscode:prepublish": "yarn lint && yarn build",
-    "vscode:publish": "yarn release && node_modules/.bin/vsce publish"
+    "vscode:publish": "yarn release && vsce publish"
   },
   "files": [
     "themes/comfort.base.vscode-color-theme.json",
@@ -37,29 +34,12 @@
     "dark",
     "theme"
   ],
-  "devDependencies": {
-    "color": "^3.1.3",
-    "eslint": "^7.23.0",
-    "eslint-config-semistandard": "^13.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-sort-destructure-keys": "^1.3.3",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "husky": "^7.0.2",
-    "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.7",
-    "vsce": "^1.87.0"
-  },
-  "engines": {
-    "vscode": "^1.12.0"
-  },
   "categories": [
     "Themes"
   ],
+  "engines": {
+    "vscode": "^1.12.0"
+  },
   "contributes": {
     "themes": [
       {
@@ -77,5 +57,22 @@
   "galleryBanner": {
     "color": "#1B1E2C",
     "theme": "dark"
+  },
+  "devDependencies": {
+    "color": "^3.1.3",
+    "eslint": "^7.23.0",
+    "eslint-config-semistandard": "^13.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^7.0.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.12",
+    "vsce": "^1.96.3"
   }
 }
