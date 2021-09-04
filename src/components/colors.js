@@ -117,7 +117,7 @@ export default {
     'editor.wordHighlightStrongBorder': null,
     'editorCodeLens.foreground': colors.yellow,
     'editorLink.activeForeground': null,
-    'editorRuler.foreground': null,
+    'editorRuler.foreground': colors.comment,
     'editorWhitespace.foreground': null,
 
     // Editor Bracket Match
