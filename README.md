@@ -13,7 +13,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=eels.vscode-comfort-theme"><img src="https://img.shields.io/visual-studio-marketplace/d/eels.vscode-comfort-theme?style=flat-square&color=blue" /></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=eels.vscode-comfort-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/eels.vscode-comfort-theme?style=flat-square&color=blue" /></a>
   <br /><br />
-  <pre>code --install-extension eels.vscode-comfort-theme --force</pre>
+  <pre>code --install-extension <a href="https://marketplace.visualstudio.com/items?itemName=eels.vscode-comfort-theme">eels.vscode-comfort-theme</a> --force</pre>
   <h1></h1>
 </div>
 
