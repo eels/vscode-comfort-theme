@@ -1,6 +1,7 @@
 {
   "name": "vscode-comfort-theme",
   "displayName": "Comfort Theme",
+  "private": true,
   "type": "module",
   "version": "0.2.3",
   "description": "A comforting dark theme, for me and for you (but mostly for me)",
