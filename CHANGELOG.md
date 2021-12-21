@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.1](https://github.com/eels/vscode-comfort-theme/compare/v0.3.0...v0.3.1) - 2021-12-21
+
+### Commits
+
+- build: add .vscodeignore [`d332594`](https://github.com/eels/vscode-comfort-theme/commit/d332594045c6d9baadfa8ad3d1e6419c50b56e00)
+- chore(deps-dev): bump vsce from 2.2.0 to 2.5.3 [`1781359`](https://github.com/eels/vscode-comfort-theme/commit/1781359a2cf7c8da1e267fc199959b74dfea36e0)
+- docs: update v0.3.0 changelog [`d778dc4`](https://github.com/eels/vscode-comfort-theme/commit/d778dc42d31b9055f60363fedd5dd4569e157ac0)
+- fix: update .vscodeignore directory syntax [`a834272`](https://github.com/eels/vscode-comfort-theme/commit/a834272a5f67e0d2190f493b921ae67f8c19f1db)
+
 ## [v0.3.0](https://github.com/eels/vscode-comfort-theme/compare/v0.2.3...v0.3.0) - 2021-12-21
 
 ### Commits
