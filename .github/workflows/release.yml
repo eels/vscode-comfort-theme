@@ -64,7 +64,7 @@ jobs:
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
         run: |
-          vsce publish --yarn
+          yarn vsce publish --yarn
 
       - name: Push Version Update & Tags
         env:
