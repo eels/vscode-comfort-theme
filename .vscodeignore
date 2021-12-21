@@ -1,0 +1,19 @@
+# Source directories
+# ----------------------------------------
+
+/.github
+/.husky
+/.vscode
+/scripts
+/src
+
+# Source files
+# ----------------------------------------
+
+.commitlintc.json
+.editorconfig
+.eslintrc.json
+.gitignore
+.lintstagedrc.json
+.prettierignore
+.prettierrc.json
