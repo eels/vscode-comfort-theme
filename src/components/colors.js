@@ -183,7 +183,7 @@ export default {
     // ------------------------------
     'editorOverviewRuler.addedForeground': colors.green,
     'editorOverviewRuler.background': colors.background,
-    'editorOverviewRuler.border': colors.selection,
+    'editorOverviewRuler.border': colors.background,
     'editorOverviewRuler.bracketMatchForeground': colors.foregroundCode,
     'editorOverviewRuler.commonContentForeground': colors.backgroundLight,
     'editorOverviewRuler.currentContentForeground': colors.mergeCurrent,
@@ -194,7 +194,7 @@ export default {
     'editorOverviewRuler.infoForeground': colors.blue,
     'editorOverviewRuler.modifiedForeground': colors.yellow,
     'editorOverviewRuler.rangeHighlightForeground': colors.selectionLight,
-    'editorOverviewRuler.selectionHighlightForeground': colors.red,
+    'editorOverviewRuler.selectionHighlightForeground': colors.foregroundCode,
     'editorOverviewRuler.warningForeground': colors.yellow,
     'editorOverviewRuler.wordHighlightForeground': colors.selectionLight,
     'editorOverviewRuler.wordHighlightStrongForeground': colors.selectionLight,
