@@ -42,10 +42,12 @@ There's a heap of VSC sections that I've never seen and a whole lot more program
 2. Create a new branch for any changes
 3. Install the required dev dependencies (`yarn install`)
 4. Open the **comfort** directory in Visual Studio Code
-5. Examine any theme changes in an Extension Development Host (`ctrl(⌘) + shift + d` then `Launch Theme`)
-6. Run the dev command to watch for changes and auto rebuild the themes
-7. Commit and push your changes
+5. Run the dev command to watch for changes to the theme source files
+6. View theme in an Extension Development Host (`ctrl(⌘) + shift + d` then `Launch Theme`)
+7. Commit and push all changes to your branch
 8. Submit a PR for review and discussion :tada:
+
+For more information about contributing to this project, see the [CONTRIBUTING.md](https://github.com/eels/vscode-comfort-theme/blob/main/.github/CONTRIBUTING.md) document.
 
 ## License
 
