@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.0](https://github.com/eels/vscode-comfort-theme/compare/v0.2.3...v0.3.0) - 2021-12-21
+
+### Commits
+
+- Add lint-staged and add explicit extensions to some dot files [`986df4d`](https://github.com/eels/vscode-comfort-theme/commit/986df4d7721073e1ca3267cbdf460ff3db191a4c)
+- Add private flag to package.json [`6848b30`](https://github.com/eels/vscode-comfort-theme/commit/6848b3013d7c676282fed9056e0564f66f6308f3)
+- build: add dependabot.yml [`ca3599b`](https://github.com/eels/vscode-comfort-theme/commit/ca3599b466511b258ee30614aa7a10b222aaa444)
+- build: add github action workflows [`5753ac7`](https://github.com/eels/vscode-comfort-theme/commit/5753ac7e9c98b0fafab9703e855864d2f54ba12d)
+- build(deps): bump actions/setup-node from 1 to 2.4.1 [`85c8aed`](https://github.com/eels/vscode-comfort-theme/commit/85c8aed587de83b3c4752da93023f17a373a5a63)
+- build(deps): bump actions/setup-node from 2.4.1 to 2.5.0 [`a2b6277`](https://github.com/eels/vscode-comfort-theme/commit/a2b62770aeeb89df7265384f25f24d9ecf8fcc21)
+- chore: add .prettierignore [`e202d68`](https://github.com/eels/vscode-comfort-theme/commit/e202d687966b4acca14cf26812bd6a39aa0768fd)
+- chore: add bug issue template [`393ceeb`](https://github.com/eels/vscode-comfort-theme/commit/393ceeb9f9abbba50116bc7b2969598835f32648)
+- chore: add code of conduct [`c071e29`](https://github.com/eels/vscode-comfort-theme/commit/c071e291c25fa9076be041f1ca395a292b2695d6)
+- chore: add contributing.md [`5369703`](https://github.com/eels/vscode-comfort-theme/commit/53697034c42e477c9b09d8e6049da6b3e1c67486)
+
 ## [v0.2.3](https://github.com/eels/vscode-comfort-theme/compare/v0.2.2...v0.2.3) - 2021-09-04
 
 ### Commits
