@@ -286,7 +286,7 @@ export default {
     'minimap.findMatchHighlight': colors.selection,
     'minimap.selectionHighlight': colors.selection,
     'minimap.warningHighlight': colors.yellow,
-    'minimapGutter.addedBackground': colors.red,
+    'minimapGutter.addedBackground': colors.green,
     'minimapGutter.deletedBackground': colors.red,
     'minimapGutter.modifiedBackground': colors.yellow,
     'minimapSlider.activeBackground': null,
