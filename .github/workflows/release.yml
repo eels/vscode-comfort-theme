@@ -55,9 +55,10 @@ jobs:
         run: |
           yarn install --prefer-offline
 
-      - name: Bump Package Version
+      - name: Bump Package Version & Generate Changelog
         run: |
           yarn version --${{ github.event.inputs.version }}
+          yarn changelog
 
       - name: Publish Extension
         env:
@@ -69,5 +70,7 @@ jobs:
         env:
           github-token: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          VERSION=$(node -p -e "require('./package.json').version")
+          git add CHANGELOG.md && git commit -m "docs: update v$VERSION changelog"
           git push
           git push --tags
