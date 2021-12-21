@@ -1,11 +1,11 @@
 # Source directories
 # ----------------------------------------
 
-/.github
-/.husky
-/.vscode
-/scripts
-/src
+.github/**
+.husky/**
+.vscode/**
+scripts/**
+src/**
 
 # Source files
 # ----------------------------------------
