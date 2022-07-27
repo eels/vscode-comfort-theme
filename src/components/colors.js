@@ -11,7 +11,7 @@ export default {
     'contrastBorder': null,
     'descriptionForeground': colors.foreground,
     'errorForeground': colors.foreground,
-    'focusBorder': colors.selectionDark,
+    'focusBorder': translucify(colors.white, 0),
     'foreground': colors.foreground,
     'selection.background': colors.backgroundDark,
     'widget.shadow': colors.backgroundDark,
