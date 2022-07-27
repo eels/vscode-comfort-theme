@@ -9,25 +9,25 @@ export default {
       foreground: colors.magenta,
     },
     'namespace': {
-      foreground: colors.foregroundCode,
+      foreground: colors.foreground,
     },
     'property.declaration': {
       foreground: colors.blue,
     },
     'property.declaration.static': {
-      foreground: colors.foregroundCode,
+      foreground: colors.foreground,
     },
     'variable.constant': {
       foreground: colors.orange,
     },
     'variable.declaration': {
-      foreground: colors.foregroundCode,
+      foreground: colors.foreground,
     },
     'variable.defaultLibrary': {
-      foreground: colors.foregroundCode,
+      foreground: colors.foreground,
     },
     'variable.readonly': {
-      foreground: colors.foregroundCode,
+      foreground: colors.foreground,
     },
   },
 };

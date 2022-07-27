@@ -35,7 +35,6 @@ const BRIGHTCOLORS = {
 // ------------------------------
 
 const BASECOLORS = {
-  accent: BRIGHTCOLORS.brightRed,
   background: palette.background,
   backgroundDark: palette.backgroundDark,
   backgroundDarker: palette.backgroundDarker,
@@ -44,7 +43,6 @@ const BASECOLORS = {
   comment: palette.comment,
   foreground: palette.foreground,
   foregroundAlt: palette.foregroundAlt,
-  foregroundCode: palette.foregroundCode,
   selection: palette.selection,
   selectionDark: palette.selectionDark,
   selectionLight: palette.selectionLight,

@@ -16,7 +16,7 @@ export default {
         'punctuation.separator.pipe.unison',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -37,7 +37,7 @@ export default {
       name: 'support.variable.magic.python',
       scope: ['support.variable.magic.python'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -49,7 +49,7 @@ export default {
         'punctuation.separator.period.python',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -63,7 +63,7 @@ export default {
       name: 'storage.modifier.lifetime.rust',
       scope: ['storage.modifier.lifetime.rust'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -84,7 +84,7 @@ export default {
       name: 'variable.language.rust',
       scope: ['variable.language.rust'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -98,7 +98,7 @@ export default {
       name: 'regexp constant character-class',
       scope: ['constant.other.character-class.regexp'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -119,7 +119,7 @@ export default {
       name: 'text',
       scope: ['variable.parameter.function'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -159,14 +159,14 @@ export default {
       name: 'deleted.diff',
       scope: ['markup.deleted.diff'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'c++ function',
       scope: ['meta.function.c', 'meta.function.cpp'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -183,14 +183,14 @@ export default {
         'punctuation.terminator.statement.c',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'js/ts punctuation separator key-value',
       scope: ['punctuation.separator.key-value'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -218,14 +218,14 @@ export default {
       name: 'js/ts variable.other.constant',
       scope: ['variable.other.constant'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'js/ts variable.other.property',
       scope: ['variable.other.property'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -239,7 +239,7 @@ export default {
       name: 'java source',
       scope: ['source.java'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -268,7 +268,7 @@ export default {
         'punctuation.terminator.java',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -296,7 +296,7 @@ export default {
       name: 'java variable.name',
       scope: ['meta.definition.variable.name.java'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -348,7 +348,7 @@ export default {
       name: 'css comma',
       scope: ['punctuation.separator.list.comma.css'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -389,7 +389,7 @@ export default {
         'variable.other.readwrite',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -416,7 +416,7 @@ export default {
       name: 'js/ts console',
       scope: ['support.type.object.console'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -437,7 +437,7 @@ export default {
       name: 'keyword.operator.misc.rust',
       scope: ['keyword.operator.misc.rust'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -465,7 +465,7 @@ export default {
       name: 'js dom variable',
       scope: ['support.variable.dom', 'support.variable.property.dom'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -505,7 +505,7 @@ export default {
       name: 'punctuation',
       scope: ['punctuation.separator.delimiter'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -567,7 +567,7 @@ export default {
         'punctuation.separator.arguments.python',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -588,7 +588,7 @@ export default {
       name: 'operators',
       scope: ['keyword.operator'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -623,14 +623,14 @@ export default {
       name: 'variables',
       scope: ['variable'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'variables',
       scope: ['variable.c'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -651,7 +651,7 @@ export default {
       name: 'java variables',
       scope: ['token.variable.parameter.java'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -672,7 +672,7 @@ export default {
       name: 'packages',
       scope: ['token.package'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -719,7 +719,7 @@ export default {
       name: 'class name php',
       scope: ['variable.other.class.php'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -797,14 +797,14 @@ export default {
       name: 'support type',
       scope: ['support.type.property-name'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'support type',
       scope: ['support.constant.property-value'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -818,7 +818,7 @@ export default {
       name: 'meta tag',
       scope: ['meta.tag'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -904,7 +904,7 @@ export default {
       name: 'headings',
       scope: ['markup.heading'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -953,28 +953,28 @@ export default {
       name: '[vscode-custom] markdown headings',
       scope: ['entity.name.section.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: '[vscode-custom] markdown heading punctuation definition',
       scope: ['punctuation.definition.heading.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'punctuation.definition.list.begin.markdown',
       scope: ['punctuation.definition.list.begin.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: '[vscode-custom] markdown heading setext',
       scope: ['markup.heading.setext'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1002,7 +1002,7 @@ export default {
       name: '[vscode-custom] markdown list punctuation definition',
       scope: ['punctuation.definition.list.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1013,21 +1013,21 @@ export default {
         'punctuation.definition.string.end.markdown',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'beginning.punctuation.definition.list.markdown',
       scope: ['beginning.punctuation.definition.list.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: '[vscode-custom] markdown punctuation definition link',
       scope: ['punctuation.definition.metadata.markdown'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1062,7 +1062,7 @@ export default {
       name: 'embedded',
       scope: ['punctuation.section.embedded', 'variable.interpolation'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1083,7 +1083,7 @@ export default {
       name: 'illegal',
       scope: ['invalid.illegal.bad-ampersand.html'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1111,7 +1111,7 @@ export default {
       name: 'source json meta structure dictionary json > string quoted json',
       scope: ['source.json meta.structure.dictionary.json > string.quoted.json'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1120,7 +1120,7 @@ export default {
         'source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1156,7 +1156,7 @@ export default {
       name: '[vscode-custom] json punctuation for property name',
       scope: ['support.type.property-name.json punctuation'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1208,14 +1208,14 @@ export default {
       name: 'style double quoted array index normal begin',
       scope: ['punctuation.section.array.begin.php'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'style double quoted array index normal end',
       scope: ['punctuation.section.array.end.php'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1273,7 +1273,7 @@ export default {
         'punctuation.terminator.expression.php',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1352,21 +1352,21 @@ export default {
       name: 'parameter function js/ts',
       scope: ['function.parameter'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'brace function',
       scope: ['function.brace'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'parameter function ruby cs',
       scope: ['function.parameter.cs', 'function.parameter.ruby'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1401,7 +1401,7 @@ export default {
       name: 'sass selector',
       scope: ['selector.sass'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1420,7 +1420,7 @@ export default {
       name: 'block scope',
       scope: ['block.scope.begin', 'block.scope.end'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1434,7 +1434,7 @@ export default {
       name: 'cs local variable',
       scope: ['entity.name.variable.local.cs'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1476,7 +1476,7 @@ export default {
       name: 'reset javascript string interpolation expression',
       scope: ['meta.template.expression'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1504,14 +1504,14 @@ export default {
       name: 'js class prop',
       scope: ['meta.property.object'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'js func parameter',
       scope: ['variable.parameter.function.js'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1595,7 +1595,7 @@ export default {
       name: 'html/pug (jade) escaped characters and entities',
       scope: ['constant.character.entity'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1619,7 +1619,7 @@ export default {
       name: 'clojure symbols',
       scope: ['meta.symbol.clojure'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1633,7 +1633,7 @@ export default {
       name: 'coffeescript function argument',
       scope: ['meta.arguments.coffee', 'variable.parameter.function.coffee'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1647,7 +1647,7 @@ export default {
       name: 'makefile prerequisities',
       scope: ['meta.scope.prerequisites.makefile'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1675,7 +1675,7 @@ export default {
       name: 'groovy variables',
       scope: ['meta.definition.variable.name.groovy'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1710,7 +1710,7 @@ export default {
       name: 'sql variables',
       scope: ['text.bracketed', 'text.variable'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1738,7 +1738,7 @@ export default {
       name: 'heading 3, property',
       scope: ['constant.character.character-class.regexp.xi'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1759,7 +1759,7 @@ export default {
       name: 'heading 6, number',
       scope: ['invalid.xi'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1830,14 +1830,14 @@ export default {
         'markup.heading.setext.2.markdown',
       ],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
       name: 'meta.brace.square',
       scope: ['meta.brace.square'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
@@ -1858,7 +1858,7 @@ export default {
       name: 'punctuation.definition.block.sequence.item.yaml',
       scope: ['punctuation.definition.block.sequence.item.yaml'],
       settings: {
-        foreground: colors.foregroundCode,
+        foreground: colors.foreground,
       },
     },
     {
