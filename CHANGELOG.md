@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.3](https://github.com/eels/vscode-comfort-theme/compare/v0.3.2...v0.3.3) - 2022-07-27
+
+### Commits
+
+- docs: update v0.3.2 changelog [`19ee1c4`](https://github.com/eels/vscode-comfort-theme/commit/19ee1c4a2aef44b9e40ea6991f1fcc6b903807f7)
+- feat: remove deprecated theme keys [`55b468b`](https://github.com/eels/vscode-comfort-theme/commit/55b468bddde4c720a71af266d8682abcc029beb9)
+- feat: remove extra variant colors [`149d735`](https://github.com/eels/vscode-comfort-theme/commit/149d7352719a66aad1c61a030543a670efe3f70c)
+
 ## [v0.3.2](https://github.com/eels/vscode-comfort-theme/compare/v0.3.1...v0.3.2) - 2022-07-27
 
 ### Commits
