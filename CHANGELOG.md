@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.2](https://github.com/eels/vscode-comfort-theme/compare/v0.3.1...v0.3.2) - 2022-07-27
+
+### Commits
+
+- build(deps): bump actions/cache from 2 to 3 [`9382f6b`](https://github.com/eels/vscode-comfort-theme/commit/9382f6bb10eff462fa06522740ee1765abccd7e6)
+- build(deps): bump actions/checkout from 2 to 3 [`72cd6c5`](https://github.com/eels/vscode-comfort-theme/commit/72cd6c55268e42629eea477ab8f4fbf20e522fed)
+- build(deps): bump actions/setup-node from 2.5.0 to 2.5.1 [`3e67a67`](https://github.com/eels/vscode-comfort-theme/commit/3e67a672456445bf8eda1e88a0d895697dbbda2a)
+- build(deps): bump actions/setup-node from 2.5.1 to 3 [`8089066`](https://github.com/eels/vscode-comfort-theme/commit/8089066bf26d0c133943d9be303e0f7c103e4aa0)
+- build(deps): bump dependabot/fetch-metadata from 1.1.1 to 1.2.0 [`50c02bc`](https://github.com/eels/vscode-comfort-theme/commit/50c02bc8f1a24c2323f3cfde91e05adaa95efdad)
+- build(deps): bump dependabot/fetch-metadata from 1.2.0 to 1.2.1 [`9f28041`](https://github.com/eels/vscode-comfort-theme/commit/9f28041859d27ee22d7c9ba77b2eca72ca6322a2)
+- build(deps): bump dependabot/fetch-metadata from 1.2.1 to 1.3.0 [`7b6d98a`](https://github.com/eels/vscode-comfort-theme/commit/7b6d98a963657c348e98b18c33b06734f9b6630b)
+- build(deps): bump dependabot/fetch-metadata from 1.3.0 to 1.3.1 [`01f1806`](https://github.com/eels/vscode-comfort-theme/commit/01f18063d719713d1c297cd9cb18609f36545521)
+- build(deps): bump dependabot/fetch-metadata from 1.3.1 to 1.3.3 [`5bd1b1b`](https://github.com/eels/vscode-comfort-theme/commit/5bd1b1ba38d41de23ff50d60dba28d2f5cbd3d30)
+- chore: update dependencies [`6af118b`](https://github.com/eels/vscode-comfort-theme/commit/6af118b714e62a9f436b5eaac8a77c32659f457e)
+
 ## [v0.3.1](https://github.com/eels/vscode-comfort-theme/compare/v0.3.0...v0.3.1) - 2021-12-21
 
 ### Commits
