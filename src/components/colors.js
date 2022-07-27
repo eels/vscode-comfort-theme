@@ -45,6 +45,7 @@ export default {
     // Buttons
     // ------------------------------
     'button.background': colors.selection,
+    'button.border': null,
     'button.foreground': colors.foreground,
     'button.hoverBackground': translucify(colors.selection, 0.5),
     'button.secondaryBackground': colors.selection,
@@ -232,10 +233,6 @@ export default {
     'gitDecoration.stageDeletedResourceForeground': translucify(colors.red, 0.85),
     'gitDecoration.stageModifiedResourceForeground': translucify(colors.yellow, 0.9),
     'gitDecoration.untrackedResourceForeground': translucify(colors.green, 0.9),
-
-    // Image Preview
-    // ------------------------------
-    'imagePreview.border': null,
 
     // Inputs
     // ------------------------------
@@ -490,8 +487,6 @@ export default {
     // ------------------------------
     'walkThrough.embeddedEditorBackground': colors.backgroundDark,
     'welcomePage.background': colors.background,
-    'welcomePage.buttonBackground': colors.backgroundDark,
-    'welcomePage.buttonHoverBackground': colors.backgroundDarker,
 
     // Window
     // ------------------------------
