@@ -1,6 +1,7 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix */
 
 import colors from '../colors.js';
+import darken from '../utilities/darken.js';
 import translucify from '../utilities/translucify.js';
 
 export default {
@@ -99,7 +100,7 @@ export default {
     // Editor
     // ------------------------------
     'editor.background': colors.background,
-    'editor.findMatchBackground': colors.selection,
+    'editor.findMatchBackground': colors.selectionLight,
     'editor.findMatchBorder': null,
     'editor.findMatchHighlightBackground': colors.selectionDark,
     'editor.findMatchHighlightBorder': null,
@@ -118,15 +119,15 @@ export default {
     'editor.wordHighlightBorder': null,
     'editor.wordHighlightStrongBackground': colors.selectionDark,
     'editor.wordHighlightStrongBorder': null,
-    'editorCodeLens.foreground': colors.yellow,
+    'editorCodeLens.foreground': colors.blue,
     'editorLink.activeForeground': null,
     'editorRuler.foreground': colors.selection,
     'editorWhitespace.foreground': null,
 
     // Editor Bracket Match
     // ------------------------------
-    'editorBracketMatch.background': colors.selectionDark,
-    'editorBracketMatch.border': translucify(colors.background, 0),
+    'editorBracketMatch.background': colors.selection,
+    'editorBracketMatch.border': translucify(colors.selectionLight, 0.5),
 
     // Editor Cursor
     // ------------------------------
@@ -241,14 +242,14 @@ export default {
     'input.foreground': colors.foreground,
     'input.placeholderForeground': translucify(colors.foreground, 0.5),
     'inputOption.activeBorder': colors.foreground,
-    'inputValidation.errorBackground': colors.red,
-    'inputValidation.errorBorder': colors.red,
+    'inputValidation.errorBackground': darken(colors.red),
+    'inputValidation.errorBorder': darken(colors.red),
     'inputValidation.errorForeground': colors.white,
     'inputValidation.infoBackground': colors.backgroundDark,
-    'inputValidation.infoBorder': colors.backgroundDark,
+    'inputValidation.infoBorder': translucify(colors.blue, 0.4),
     'inputValidation.infoForeground': colors.foreground,
     'inputValidation.warningBackground': colors.backgroundDark,
-    'inputValidation.warningBorder': colors.backgroundDark,
+    'inputValidation.warningBorder': translucify(colors.yellow, 0.4),
     'inputValidation.warningForeground': colors.foreground,
 
     // List
@@ -463,8 +464,8 @@ export default {
     'terminal.ansiBrightGreen': colors.brightGreen,
     'terminal.ansiBrightMagenta': colors.brightMagenta,
     'terminal.ansiBrightRed': colors.brightRed,
-    'terminal.ansiBrightWhite': colors.BrightWhite,
-    'terminal.ansiBrightYellow': colors.BrightYellow,
+    'terminal.ansiBrightWhite': colors.brightWhite,
+    'terminal.ansiBrightYellow': colors.brightYellow,
 
     // Text
     // ------------------------------

@@ -5,7 +5,7 @@ import lighten from './utilities/lighten.js';
 // ------------------------------
 
 const COLORS = {
-  black: palette.comment,
+  black: palette.backgroundLighter,
   blue: palette.blue,
   cyan: palette.cyan,
   green: palette.green,
