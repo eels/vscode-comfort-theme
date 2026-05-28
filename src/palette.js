@@ -6,7 +6,7 @@ export const backgroundDark = '#232634';
 export const backgroundDarker = '#1C1F2B';
 export const backgroundLight = '#32374D';
 export const backgroundLighter = '#3C425D';
-export const comment = '#697098';
+export const comment = '#8F94B3';
 export const foreground = '#C7CBE0';
 export const foregroundAlt = '#ACB0C8';
 export const selection = '#3F4566';
@@ -21,7 +21,7 @@ export const blue = '#81AAFF';
 export const green = '#B5E085';
 export const magenta = '#C896E9';
 export const orange = '#ECAA79';
-export const red = '#EC6575';
+export const red = '#ED6E7D';
 export const yellow = '#F5CF89';
 
 // SPECIAL: GIT MERGE
